@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: zmkfirmware/zmk-build:4.1
+    container: zmkfirmware/zmk-build-arm:4.1
 
     steps:
       - name: Checkout
