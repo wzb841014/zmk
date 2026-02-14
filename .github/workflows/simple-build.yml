@@ -3,9 +3,7 @@ name: Simple Build Test
 on:
   push:
     branches: [main]
-    paths:
-      - 'app/**'
-      - '.github/workflows/*.yml'
+  workflow_dispatch:
 
 jobs:
   build:
